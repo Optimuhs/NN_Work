@@ -1,0 +1,27 @@
+{
+  "token_id": 1,
+  "dna": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+  "name": "Zombie Nug",
+  "description": "One of the first fried ones.",
+  "image": "https://cdn.niftynuggets.org/nuggets/ApocalypticNuggets1.png",
+  "season": "",
+  "rarity": "Legendary Zombie",
+  "date": "",
+  "attributtes": [
+    { "trait_type": "HeadPiece", "value": 1 },
+    { "trait_type": "Hair", "value": 1 },
+    { "trait_type": "Glasses", "value": 1 },
+    { "trait_type": "Eyes", "value": 1 },
+    { "trait_type": "Facial Accessory", "value": 1 },
+    { "trait_type": "Mouth", "value": 1 },
+    { "trait_type": "Beard", "value": 1 },
+    { "trait_type": "Neck", "value": 1 },
+    { "trait_type": "Shoulders", "value": 1 },
+    { "trait_type": "Clothing", "value": 1 },
+    { "trait_type": "Equipment 1", "value": 1 },
+    { "trait_type": "Equipment 2", "value": 1 },
+    { "trait_type": "Weapon 1", "value": 1 },
+    { "trait_type": "Weapon 2", "value": 1 },
+    { "trait_type": "Background", "value": 1 }
+  ]
+}

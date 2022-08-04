@@ -1,0 +1,48 @@
+{
+    "token_id": 467,
+    "dna": "26,0,0,23,4,76,17,0,6",
+    "name": "Apocalyptic Nuggets 1",
+    "description": "One of the first fried ones.",
+    "image": "https://cdn.niftynuggets.org/nuggets/ApocalypticNuggets1.png",
+    "season": "Genesis",
+    "rarity":"rare",
+    "date": 1639860417657,
+    "attributtes": [
+        {
+            "trait_type": "Background",
+            "value": "Apocalypse"
+        },
+        {
+            "trait_type": "Head",
+            "value": "Regular"
+        },
+        {
+            "trait_type": "Skin",
+            "value": "Regular"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Shoulder Spikes"
+        },
+        {
+            "trait_type": "Beard",
+            "value": "Stubble"
+        },
+        {
+            "trait_type": "Hat",
+            "value": "Spike Helmet"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Injured left"
+        },
+        {
+            "trait_type": "Patches, Glasses",
+            "value": "None"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "Cigarette Black"
+        }
+    ]
+}
