@@ -31,7 +31,10 @@ const createObjects = (metadata, attribs) => {
   try {
     attribProperty = [];
     const metaObj = metadata.reduce(function (result, item, index) {
-      if (item === "" || item === undefined) throw "Missing data in row";
+      if (item === "" || item === undefined) {
+        const key = attribs[index];
+        result[key] = "";
+      }
       if (index <= 7) {
         const key = attribs[index];
         result[key] = item;
