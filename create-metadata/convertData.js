@@ -3,6 +3,7 @@ const XLSX = require("xlsx");
 const { metadataTemplate } = require("./metadata-template");
 const readline = require("readline");
 const dataTraits = require("./config-B2-T1.js");
+
 // Convert file
 // Uncomment if working with a new xlsx file or if conversion is needed
 // const workBook = XLSX.readFile("./Batch 1 Metadata_Trait list.xlsx");
@@ -22,15 +23,17 @@ rl.on("line", (row) => {
 
 rl.on("close", () => {
   data.slice(0, 11).forEach((elem) => {
-    // console.log(elem);
     const initObject = createObjects(elem.slice(4, 32), data[0].slice(4, 32));
-    console.log(initObject);
-    // const updatedObj = updateTemplate(initObject);
+    // Contains an object with the parsed metadata,
+    // does also contain my attempt at createing the dna string
+    const updatedObj = updateTemplate(initObject);
     // console.log(updatedObj);
+    // Creates the json file, takes the updated object with the data from the csv file
     // createDataFile(updatedObj);
   });
 });
 // console.log(dataTraits.races.nugget.layers[0].elements);
+
 const createObjects = (metadata, attribs) => {
   try {
     attribProperty = [];
@@ -86,8 +89,4 @@ const createDataFile = (metadata) => {
   } catch (err) {
     console.log("Cannot write undefined");
   }
-};
-
-const createDNAString = (attributes) => {
-  console.log(races);
 };
